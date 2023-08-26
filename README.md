@@ -1,5 +1,5 @@
 # areaScanningAlgorithm
-Area scanning algorithm for autonomous robots. This algorithm provides you with a GPS route.
+This algorithm generates a GPS route, enabling drones to autonomously scan entire areas by following this route. The parameter 'R' represents the drone's domain radius, ensuring efficient coverage.
 
 
 <img src="https://github.com/abdulkadrtr/areaScanningAlgorithm/assets/87595266/9a0aea9b-ac98-42dc-8ba9-febab344732e" alt="1">
@@ -14,3 +14,10 @@ The algorithm's core purpose is to enable autonomous agricultural drones to exec
 
 ## Algorithm
 <img src="https://github.com/abdulkadrtr/areaScanningAlgorithm/assets/87595266/8c39af51-9fe8-4308-bfa5-4907536b9b4c" alt="3">
+
+## Requirements
+```
+- folium
+- pyproj
+- matplotlib
+```
